@@ -85,7 +85,7 @@ export async function POST(request: Request) {
         try {
           console.log("API: ElevenLabs is being used for TTS");
           const ttsResponse = await axios.post(
-            "https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM",
+            "https://api.elevenlabs.io/v1/text-to-speech/Qc0h5B5Mqs8oaH4sFZ9X",
             { text, voice_settings: { stability: 0.5, similarity_boost: 0.5 } },
             {
               headers: { "xi-api-key": elevenLabsApiKey, "Content-Type": "application/json" },
